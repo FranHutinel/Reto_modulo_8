@@ -2,11 +2,11 @@ import pkg from 'pg';
 const {Pool} = pkg;
 
 const pool = new Pool({
-    host: 'localhost',
-    database: 'reto-m8',
+    host: 'mahmud.db.elephantsql.com',
+    database: 'ohvhjqfc',
     port: 5432,
-    user: 'postgres',
-    password: 'Jasonpia0',
+    user: 'ohvhjqfc',
+    password: 'fxXGREzKybjqMA_S9sPdHezIZHyv4Nr9',
     max: 5,
     idleTimeoutMillis: 10000,
     connectionTimeoutMillis: 2000,
